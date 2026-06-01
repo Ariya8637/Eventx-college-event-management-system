@@ -1,0 +1,27 @@
+[
+    {
+        "path": "/",
+        "component": "Dashboard",
+        "access": "public"
+    },
+    {
+        "path": "/login",
+        "component": "Login",
+        "access": "public"
+    },
+    {
+        "path": "/register",
+        "component": "Register",
+        "access": "public"
+    },
+    {
+        "path": "/events",
+        "component": "Events",
+        "access": "authenticated"
+    },
+    {
+        "path": "/admin/dashboard",
+        "component": "AdminDashboard",
+        "access": "admin"
+    }
+]

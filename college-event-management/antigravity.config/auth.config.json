@@ -1,0 +1,23 @@
+{
+    "jwtSecret": "process.env.JWT_SECRET",
+    "tokenExpiration": "1h",
+    "roles": [
+        "student",
+        "admin",
+        "organizer"
+    ],
+    "permissions": {
+        "student": [
+            "view_events",
+            "register_event"
+        ],
+        "organizer": [
+            "create_event",
+            "manage_attendance"
+        ],
+        "admin": [
+            "manage_users",
+            "delete_event"
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Event Creation Workflow",
+    "steps": [
+        "Organizer logs in",
+        "Navigates to Create Event page",
+        "Fills in event details",
+        "Submits form",
+        "System validates input",
+        "System saves event to database",
+        "System sends confirmation to organizer"
+    ]
+}

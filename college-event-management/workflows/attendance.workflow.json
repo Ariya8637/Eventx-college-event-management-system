@@ -1,0 +1,9 @@
+{
+    "name": "Attendance Workflow",
+    "steps": [
+        "Organizer scans student ticket/QR",
+        "System verifies registration",
+        "System marks attendance in database",
+        "System displays success message"
+    ]
+}

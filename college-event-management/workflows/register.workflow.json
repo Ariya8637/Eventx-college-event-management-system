@@ -1,0 +1,11 @@
+{
+    "name": "Student Registration Workflow",
+    "steps": [
+        "Student logs in",
+        "Views event list",
+        "Clicks Register on specific event",
+        "System checks eligibility/seats",
+        "System creates registration record",
+        "System sends confirmation email to student"
+    ]
+}

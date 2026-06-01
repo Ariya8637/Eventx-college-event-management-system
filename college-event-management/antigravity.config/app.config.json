@@ -1,0 +1,12 @@
+{
+    "appName": "College Event Management System",
+    "version": "1.0.0",
+    "theme": {
+        "primaryColor": "#007bff",
+        "secondaryColor": "#6c757d"
+    },
+    "features": {
+        "enableNotifications": true,
+        "enableAttendanceTracking": true
+    }
+}
